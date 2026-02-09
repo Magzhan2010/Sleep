@@ -1,0 +1,22 @@
+@import "tailwindcss";
+/* Эффект свечения для цифр */
+.text-glow {
+  text-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+}
+
+/* Стеклянный эффект */
+.glass-effect {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px border rgba(255, 255, 255, 0.05);
+}
+
+/* Медленное вращение для декораций */
+.animate-slow-spin {
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
